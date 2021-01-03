@@ -3,7 +3,10 @@ package com.udacity.jdnd.course1exercises.lesson2.exercise1;
 /**
  * Food Service that performs business logic operations regarding food
  */
-@service
+
+import org.springframework.stereotype.Service;
+
+@Service
 public class FoodService {
     private FoodRepository foodRepository;
 

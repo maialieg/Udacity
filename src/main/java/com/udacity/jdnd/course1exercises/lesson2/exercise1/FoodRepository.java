@@ -1,5 +1,7 @@
 package com.udacity.jdnd.course1exercises.lesson2.exercise1;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.List;
